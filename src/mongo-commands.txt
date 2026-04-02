@@ -1,0 +1,11 @@
+db.students.insertOne({
+  name: "devyani",
+  email: "devyani@gmail.com"
+})
+
+db.students.insertOne({
+  name: "Priya",
+  email: "priya@gmail.com"
+})
+
+db.students.find()
